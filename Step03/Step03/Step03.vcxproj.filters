@@ -15,25 +15,43 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="01_scanf.c">
+    <ClCompile Include="01_while.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="02_operator.c">
+    <ClCompile Include="02_while.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="03_operator.c">
+    <ClCompile Include="03_do_while.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="04_operator.c">
+    <ClCompile Include="04_for.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="05_operator.c">
+    <ClCompile Include="05_quest.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="06_operator.c">
+    <ClCompile Include="06_quest.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="07_operator.c">
+    <ClCompile Include="07_quest.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Users\ITSC\Downloads\C-main (1)\C-main\Step03\Step03\08_quest.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Users\ITSC\Downloads\C-main (1)\C-main\Step03\Step03\09_if.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Users\ITSC\Downloads\C-main (1)\C-main\Step03\Step03\10_switch.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Users\ITSC\Downloads\C-main (1)\C-main\Step03\Step03\11_quest.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Users\ITSC\Downloads\C-main (1)\C-main\Step03\Step03\12_quest.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Users\ITSC\Downloads\C-main (1)\C-main\Step03\Step03\13_quest.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
