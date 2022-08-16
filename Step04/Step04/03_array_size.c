@@ -1,19 +1,15 @@
 #include <stdio.h>
 
 int main(void) {
-	int size = 5;
-	printf("배열 개수 입력 :");
-	scanf("%d", &size);
-	int arr[size];
-	arr[0] = 1;
-	arr[1] = 2;
-	arr[2] = 3;
-	arr[3] = 4;
-	arr[4] = 5;
+    //정수형 배열
+    int arr1[5];
+    //실수형 배열
+    double arr2[6];
+    //문자형 배열
+    char str[10];
 
-	for (int i = 0; i < 5; i++) {
-		printf("%d ", arr[i]);
-	}
-
-	return 0;
+    printf("%d %d %d\n", sizeof(arr1), sizeof(arr2), sizeof(str));
+    printf("%d %d %d\n", sizeof(arr1) / sizeof(int),
+        sizeof(arr2) / sizeof(double), sizeof(str) / sizeof(char));
+    return 0;
 }

@@ -15,28 +15,40 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="01_array.c">
+    <ClCompile Include="01_pointer.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="02_array_init.c">
+    <ClCompile Include="02_pointer.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="03_array_size.c">
+    <ClCompile Include="03_local_variable.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\Users\ITSC\Downloads\C-main (2)\C-main\Step04\Step04\04_array_quest.c">
+    <ClCompile Include="04_global_variable.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\Users\ITSC\Downloads\C-main (2)\C-main\Step04\Step04\05_array_quest.c">
+    <ClCompile Include="05_static_variable.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\Users\ITSC\Downloads\C-main (2)\C-main\Step04\Step04\07_string_input.c">
+    <ClCompile Include="06_array_address.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\Users\ITSC\Downloads\C-main (2)\C-main\Step04\Step04\08_string_quest.c">
+    <ClCompile Include="07_array_pointer.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\Users\ITSC\Downloads\C-main (2)\C-main\Step04\Step04\06_string.c">
+    <ClCompile Include="08_pointer_size.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="09_call_by_value.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="10_call_by_reference.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="12_pointer_array.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="11_pointer_operator.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
