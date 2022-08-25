@@ -1,0 +1,74 @@
+virtual box 설정
+
+>>새로만들기
+-> 이름 ubuntu_linux
+-> 종류 Linux 
+-> 버전 Ubuntu 64bit
+다음
+
+메모리 크기
+-> 4096(4GB) 설정
+다음
+
+하드 디스크
+-> 만들기
+-> VDI
+-> 동적할당
+-> 100GB
+-> 만들기
+
+하드 디스크
+-> ubuntu.iso 선택
+-> 시작
+
+언어 한국어 변경
+-> x 버튼
+-> 우측 상단에 settings -> displays -> 해상도 원하는대로 변경
+
+
+install utbutag -> 키보드 레이아웃 korean 설정
+계속하기
+-> 디스크를 지우고 Ubuntu 설치
+
+
+우클릭 -> 터미널로 열기
+
+cd ..
+pwd
+mkdir workspace
+ls
+
+cd workspace
+
+mkdir c
+
+rmdir c
+
+ps(프로세서 정보 호출)
+
+sudo apt update
+sudo apt upgrade
+sudo apt upgrade 업에디트할 패키지 명
+sudo apt search 검색어
+sudo apt install 패키지명
+sudo apt purge 패키지명 --> 패키지명에 해당한느 파일들을 제거
+
+sudo apt list -- installed
+sudo apt list -- upgradeable 
+
+sudo apt install openjdk-11-jdk
+sudo apt install gcc
+sudo apt install g++
+
+
+gcc -c hello.c
+gcc hello.o -o hello.out
+./hello.out
+
+sudo dpkg -i 설치할 압축파일.deb (tab으로 자동완성)
+
+
+ubuntu 설정 -> 일반 -> 고급 클립보드 양방향
+
+
+
